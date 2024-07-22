@@ -1,8 +1,5 @@
 <?php
 
-use App\Models\Kelas;
-use App\Models\KelasSiswa;
-use App\Models\MataKuliah;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -14,11 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('penilaians', function (Blueprint $table) {
+        Schema::create('scaner_status', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(KelasSiswa::class);
-            $table->foreignIdFor(MataKuliah::class);
-            $table->integer('nilai');
+            $table->string('kode');
+            $table->string('status');
+            $table->timestamp('last');
             $table->timestamps();
         });
     }
@@ -28,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('penilaians');
+        Schema::dropIfExists('scanner_statuses');
     }
 };

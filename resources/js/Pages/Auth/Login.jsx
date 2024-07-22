@@ -46,7 +46,7 @@ export default function Login({ status, canResetPassword }) {
                                 href="/"
                                 className="navbar-brand navbar-brand-autodark"
                             >
-                                RQIB
+                                Door Lock
                             </Link>
                         </div>
                         <h2 className="h3 text-center mb-3">
@@ -54,7 +54,9 @@ export default function Login({ status, canResetPassword }) {
                         </h2>
                         <form onSubmit={submit}>
                             <div className="mb-3">
-                                <label className="form-label">Username</label>
+                                <label className="form-label">
+                                    Username/NIM
+                                </label>
                                 <input
                                     type="email"
                                     className="form-control"
@@ -144,12 +146,6 @@ export default function Login({ status, canResetPassword }) {
                                 </button>
                             </div>
                         </form>
-                    </div>
-                    <div className="text-center text-secondary mt-3">
-                        Don't have account yet?{" "}
-                        <Link href={route("register")} tabindex="-1">
-                            Sign up
-                        </Link>
                     </div>
                 </div>
                 <div className="col-12 col-lg-6 col-xl-8 d-none d-lg-block">

@@ -33,69 +33,12 @@ export default function Dashboard({ auth }) {
                                 <div className="col-auto">
                                     <span className="bg-primary text-white avatar">
                                         {/* Download SVG icon from http://tabler-icons.io/i/currency-dollar */}
-                                        <IconPencil className="icon" />
-                                    </span>
-                                </div>
-                                <div className="col">
-                                    <div className="font-weight-medium">
-                                        132 Pendaftar
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6 col-lg-3">
-                    <div className="card card-sm">
-                        <div className="card-body">
-                            <div className="row align-items-center">
-                                <div className="col-auto">
-                                    <span className="bg-primary text-white avatar">
-                                        {/* Download SVG icon from http://tabler-icons.io/i/currency-dollar */}
                                         <IconUsers className="icon" />
                                     </span>
                                 </div>
                                 <div className="col">
                                     <div className="font-weight-medium">
-                                        132 Siswa
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6 col-lg-3">
-                    <div className="card card-sm">
-                        <div className="card-body">
-                            <div className="row align-items-center">
-                                <div className="col-auto">
-                                    <span className="bg-primary text-white avatar">
-                                        {/* Download SVG icon from http://tabler-icons.io/i/currency-dollar */}
-                                        <IconList className="icon" />
-                                    </span>
-                                </div>
-                                <div className="col">
-                                    <div className="font-weight-medium">
-                                        132 Kelas
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6 col-lg-3">
-                    <div className="card card-sm">
-                        <div className="card-body">
-                            <div className="row align-items-center">
-                                <div className="col-auto">
-                                    <span className="bg-primary text-white avatar">
-                                        {/* Download SVG icon from http://tabler-icons.io/i/currency-dollar */}
-                                        <IconBook2 className="icon" />
-                                    </span>
-                                </div>
-                                <div className="col">
-                                    <div className="font-weight-medium">
-                                        132 Mata Kuliah.
+                                        132 Mahasiswa
                                     </div>
                                 </div>
                             </div>

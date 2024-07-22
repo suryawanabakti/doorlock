@@ -9,13 +9,12 @@
         "inertiajs/inertia-laravel": "^1.0",
         "laravel/framework": "^11.0",
         "laravel/pulse": "^1.0@beta",
-        "laravel/reverb": "@beta",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.4",
+        "pusher/pusher-php-server": "^7.2",
         "spatie/laravel-activitylog": "^4.8",
         "spatie/laravel-permission": "^6.4",
-        "suryawanabakti/sso": "^1.0",
         "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
